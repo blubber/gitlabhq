@@ -40,7 +40,7 @@ class TeamcityService < CiService
     'The build configuration in Teamcity must use the build format '\
     'number %build.vcs.number% '\
     'you will also want to configure monitoring of all branches so merge '\
-    'requests build, that setting is in the vsc root advanced settings.'
+    'requests build, that setting is in the vcs root advanced settings.'
   end
 
   def self.to_param
